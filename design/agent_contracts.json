@@ -1,0 +1,12 @@
+{
+  "status": "draft",
+  "purpose": "first bounded investigation loop",
+  "tools": [
+    {"name": "retrieve_candidates", "purpose": "load relevant bank records"},
+    {"name": "compare_records", "purpose": "calculate amount and date differences"},
+    {"name": "retrieve_supporting_record", "purpose": "find evidence linked to a transaction"}
+  ],
+  "max_steps": 8,
+  "outcomes": ["recommend_match", "human_review"],
+  "implementation": "planned"
+}

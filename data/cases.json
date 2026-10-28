@@ -1,0 +1,25 @@
+[
+  {
+    "id": "exact_match",
+    "ledger": [{"id": "L001", "reference": "INV-1042", "amount": "2450.00", "date": "2026-03-12"}],
+    "bank": [{"id": "B001", "reference": "INV-1042", "amount": "2450.00", "date": "2026-03-12"}]
+  },
+  {
+    "id": "competing_matches",
+    "ledger": [{"id": "L002", "reference": "INV-1051", "amount": "1850.00", "date": "2026-03-15"}],
+    "bank": [
+      {"id": "B201", "reference": "INV-1051", "amount": "1850.00", "date": "2026-03-15"},
+      {"id": "B202", "reference": "INV-1051", "amount": "1850.00", "date": "2026-03-15"}
+    ]
+  },
+  {
+    "id": "amount_difference",
+    "ledger": [{"id": "L003", "reference": "INV-1060", "amount": "4200.00", "date": "2026-03-18"}],
+    "bank": [{"id": "B003", "reference": "INV-1060", "amount": "4020.00", "date": "2026-03-18"}]
+  },
+  {
+    "id": "missing_record",
+    "ledger": [{"id": "L004", "reference": "INV-1075", "amount": "750.00", "date": "2026-03-20"}],
+    "bank": []
+  }
+]
